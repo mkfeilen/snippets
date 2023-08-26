@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Everdell",
+        "numberOfPlayers": {"min": 1, "max": 4},
+        "designer": "James Wilson",
+        "company": "Starling Games",
+        "playLengthInMins": {"min": 40, "max": 80}
+    }
+]
