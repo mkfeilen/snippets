@@ -51,7 +51,7 @@ for(let i=0; i < strArr.length ; i++) {
 
 // Coding practice
 // print the followings in three different ways like above
-// obj, objArr
+// This gives the key and values. 
 console.log("======= e in obj")
 for(const key in obj){
    if(obj.hasOwnProperty(key)){
@@ -59,7 +59,7 @@ for(const key in obj){
    }
 }
 
-
+// normally for of would not work in array, but does with entries
 console.log("======= e of obj")
 let entries = Object.entries(obj);
 for(array of entries){
@@ -73,6 +73,7 @@ for(let i=0; i < keys.length ; i++){
     console.log("obj[i]:", obj[keys[i]]);
 }
 
+// how to print a map
 console.log("======== map")
 console.log(dummy_map.entries());
 console.log(dummy_map.keys());

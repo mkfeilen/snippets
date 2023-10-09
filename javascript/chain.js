@@ -29,7 +29,8 @@ x.sort(compareDesc);
 
 //console.log(x);
 
-
+//you can keep chaining on methods as long as the return something
+//if they don't return something that method should be on a separate line
 
 const y = arr.filter((e) => e > 2 && e < 8)
              .sort(compareDesc)
